@@ -13,12 +13,12 @@ html {
   background-color: #00BDF2;
 }
 
-html > * {
+/* html > * {
   overflow: visible;
 }
-
+ */
 #profilePic {
-  overflow: hidden;
+  overflow: visible;
 }
 
 #social a:link {
