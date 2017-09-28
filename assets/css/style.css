@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', 'Open Sans', sans-serif;
-  overflow: auto;
+/*   overflow: auto; */
 
 /*  border: 1px solid red;*/
 }
@@ -17,9 +17,9 @@ html {
   overflow: visible;
 }
  */
-#profilePic {
+/* #profilePic {
   overflow: visible;
-}
+} */
 
 #social a:link {
   color: #464e59;
