@@ -17,6 +17,10 @@ html > * {
   overflow: visible;
 }
 
+#profilePic {
+  overflow: hidden;
+}
+
 #social a:link {
   color: #464e59;
   text-decoration: none;
