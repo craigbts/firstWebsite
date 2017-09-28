@@ -14,7 +14,7 @@ html {
 }
 
 html > * {
-  overflow: hidden;
+  overflow: auto;
 }
 
 #social a:link {
