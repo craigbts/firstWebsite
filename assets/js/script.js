@@ -4,5 +4,5 @@ $(document).ready(function() {
 });
 
 $("#mail").click(function() {
-  $("#emailAdd").html("craig.beatts@gmail.com");
+  $("#emailAdd").html("craig@craigbeatts.com");
 });
