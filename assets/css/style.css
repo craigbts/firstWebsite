@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', 'Open Sans', sans-serif;
-/*   overflow: auto; */
-
-/*  border: 1px solid red;*/
 }
 
 html {
@@ -13,13 +10,7 @@ html {
   background-color: #00BDF2;
 }
 
-/* html > * {
-  overflow: visible;
-}
- */
-/* #profilePic {
-  overflow: visible;
-} */
+/*     NAVIGATION     */
 
 #social a:link {
   color: #464e59;
@@ -32,13 +23,11 @@ html {
 }
 
 #social a:hover {
-  color: #00BDF2;/*
-  border-bottom: 1px solid black;*/
+  color: #00BDF2;
 }
 
 #social a:active {
   color: #464e59;
-/*  border-bottom: 1px solid black;*/
 }
 
 #social {
@@ -46,7 +35,6 @@ html {
   top: 4vh;
   right: 6vh;
   font-size: 1.1em;
-/*  border: 1px solid red;*/
   padding: 2px 0;
 
 }
@@ -56,7 +44,6 @@ html {
   position: relative;
   display: inline-block;
   margin: 0px 20px 0px 0px;
-  /*  border: 1px solid red;*/
 }
 
 #social li:last-child {
@@ -103,7 +90,6 @@ html {
 }
 
 #hello {
-/*  font-weight: normal;*/
   margin-bottom: .8em;
 }
 
@@ -114,7 +100,6 @@ html {
   min-height: 100vh;
   text-align: center;
   padding: 0px 0 15px;
-/*  scroll-snap-type: proximity;*/
 }
 
 .portPage {
@@ -130,7 +115,6 @@ html {
 #workTitle {
   height: 10%;
   padding: 5vh 0 3vh 0;
-/*  border: 1px solid red;*/
   position: relative;
   top: 0;
 }
@@ -163,9 +147,7 @@ html {
   border-radius: 6px;
   margin: 0 auto;
   width: 800px;
-
   height: 625px;
-  /*height: 85vh;*/
   background: white;
   color: #464e59;
   padding: 15px;
@@ -183,7 +165,6 @@ html {
   min-width: 320px;
   max-width: 60vw;
   min-height: 625px;
-  /*height: 85vh;*/
   background: white;
   color: #464e59;
   padding: 15px;
@@ -219,20 +200,12 @@ html {
   max-height: 350px;
   width: auto;
   height: auto;
- /* max-width: 100%;
-  min-width: 305px;
-  max-height: 100%;
-  min-height: 203px;*/
   display: inline-block;
   margin: 20px 1%;
-/*  background-color: #00BDF2;*/
   position: relative;
   box-shadow: 3px 3px 3px #ccc;
   border-radius: 4px;
-/*  transition: width 10s ease-in-out;*/
 }
-
-
 
 .mainIcon h3 {
   z-index: -100;
@@ -260,7 +233,6 @@ html {
 
 .mainIcon:hover > h3 {
   z-index: 200;
-/*  top: 0px;*/
 }
 
 .workImage img {
@@ -334,7 +306,6 @@ html {
   left: 50%;
   transform: translate(-50%,0);
   padding: 5px;
-/*  border: 1px solid red;*/
   text-align: center;
 }
 
@@ -342,17 +313,6 @@ html {
   padding-top: 20px;
   color: #8291A5;
 }
-/*
-#socialContact > * {
-  border: 1px solid red;
-  text-align: center;
-  padding: 10px;
-}*/
-
-/*.addClass {
-  display: inline-block;
-}*/
-
 
 .button {
   display: inline-block;
@@ -402,8 +362,6 @@ html {
 footer {
   height: 10vh;
   background-color: #f3f3f3;
-/*  position: absolute;
-  bottom: 0;*/
 }
 
 #copy {
@@ -420,12 +378,9 @@ footer {
   padding-top: 0px;
   position: absolute;
   margin: 10px auto 0px;
-/*  left: 50%;*/
   bottom: 4px;
   width: 100%;
-/*  border: 1px solid red;*/
   transform: translate(-50%,0%);
-/*  border: 1px solid red;*/
 }
 
 @media (min-width: 1200px) {
@@ -446,10 +401,6 @@ footer {
     padding: 30px 3px 15px;
     max-width: 70%;
   }
-/*
-  #holder {
-    width: 100%;
-  }*/
 
   footer #copy {
     bottom: 3%;
