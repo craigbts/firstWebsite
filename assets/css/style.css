@@ -10,6 +10,16 @@ html {
   background-color: #00BDF2;
 }
 
+/*     HOME     */
+
+#home {
+  height: 95vh;
+  min-height: 440px;
+  padding-top: 7vh;
+  color: #464e59;
+  background-color: #f3f3f3;
+}
+
 /*     NAVIGATION     */
 
 #social a:link {
@@ -54,13 +64,7 @@ html {
   transform: translate(0,10%);
 }
 
-#home {
-  height: 95vh;
-  min-height: 440px;
-  padding-top: 7vh;
-  color: #464e59;
-  background-color: #f3f3f3;
-}
+/*     PROFILE PIC     */
 
 #Pic {
   position: relative;
@@ -79,6 +83,8 @@ html {
   transform: translate(-50%, 0);
 }
 
+/*     INTRO TEXT     */
+
 #introText{
   line-height: 1.5;
   width: 40%;
@@ -92,6 +98,8 @@ html {
 #hello {
   margin-bottom: .8em;
 }
+
+/*     PORTFOLIO     */
 
 #work {
   background-color: #464e59;
@@ -280,6 +288,8 @@ html {
   color: #464e59;
 }
 
+/*     CONTACT     */
+
 #contact {
   min-height: 220px;
   height: 35vh;
@@ -359,6 +369,8 @@ html {
   color: white;
 }
 
+/*     FOOTER     */
+
 footer {
   height: 10vh;
   background-color: #f3f3f3;
@@ -383,10 +395,26 @@ footer {
   transform: translate(-50%,0%);
 }
 
-@media (min-width: 1200px) {
-  .mainIcon {
-    width: 47%;
+/*     MEDIA QUERIES     */
+
+@media (max-width: 550px) {
+  #contact {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .page .workImage {
+    width: 90%;
     height: auto;
+  }
+
+  #holder {
+    width: 100%;
+  }
+
+  .portPage {
+    padding-bottom: 0px;
   }
 }
 
@@ -407,25 +435,9 @@ footer {
   }
 }
 
-@media (max-width: 800px) {
-  .page .workImage {
-    width: 90%;
+@media (min-width: 1200px) {
+  .mainIcon {
+    width: 47%;
     height: auto;
-  }
-
-  #holder {
-    width: 100%;
-  }
-
-  .portPage {
-    padding-bottom: 0px;
-  }
-
-
-}
-
-@media (max-width: 550px) {
-  #contact {
-    height: 50vh;
   }
 }
