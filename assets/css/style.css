@@ -401,6 +401,10 @@ footer {
   #contact {
     height: 50vh;
   }
+
+  #home {
+    height: 100%;
+  }
 }
 
 @media (max-width: 800px) {
